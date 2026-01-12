@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>只阳赛博空间</title>
+    <style>
+        /* 第一步：添加背景图 */
+        body {
+            /* 添加背景图片 */
+            background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            /* 背景图覆盖整个页面 */
+            background-size: cover;
+            /* 背景图固定，滚动页面时背景不动 */
+            background-attachment: fixed;
+        }
+        
+         /* 第二步：添加深色半透明覆盖层，让文字更清晰 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* 半透明黑色背景，0.3表示30%透明度 */
+            background-color: rgba(0, 0, 0, 0.3);
+            /* 将这个层放到最底层 */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: fixed; top: 0; left: 0px;
+                background-color: rgba(243, 214, 236,0.25);
+                padding: 80px;">
+        <img src="zhiyang.jpg" 
+        alt="图片显示失败" 
+        width="200" 
+        height="200" 
+        title="我是只阳超人！"
+        style="border-radius: 50%;">
+        <p style="color: rgba(94, 150, 147, 0.85);">小茉莉，请不要把我忘记。</p>
+    </div>
+
+    <div style="position: fixed; top: 0; left: 380px;
+                padding: 100px 20px;
+                background-color: rgba(188, 243, 224, 0.25);">
+
+        <p>个人状态栏</p>
+            <ul>
+                <li>年龄：25岁</li>
+                <li>职业：赛博游民</li>
+                <li>爱好：编程、阅读、写作</li>
+                <li>我是只阳超人！</li>
+            </ul>
+        
+    </div>
+
+    <div style="position: fixed; top: 0; left: 700px; padding: 20px;
+                background-color: rgba(234, 240, 238, 0.25);
+                width: 400px;
+                margin: 10px 20px;
+                border: 2px solid #f26969;">
+       
+        <p>我抚摸的手指尖，</p>
+        <p>变成看向你的瞳孔</p>
+        <p>你的岁月在对我开阖。</p> 
+        <p>一整个夏天我失去言说和书写，</p>
+        <p>只会干燥地呼吸，</p>
+        <p>像一条搁浅的金鱼，</p>
+        <p>在阳光中为陆地留下身体的语言。</p>
+    </div>
+
+    <div style="position: fixed; top: 0; right: 0px; padding: 40px;
+                background-color: rgba(153, 157, 243, 0.25);
+                margin: 10px 20px;
+                border: 2px solid #0e0e12;">
+
+        <p>时间：二零二四年六月</p>
+        <p>地点：只阳赛博空间</p>
+        <img src="clock.jpg"
+        alt="图片显示失败" 
+        width="200" 
+        height="200" 
+        title="动态图有待完善"
+        style="border-radius: 50%;">
+    </div>
+    
+    <div style="position: fixed; top: 450px; left: 0px;
+                background-color: rgba(187, 217, 241, 0.25);
+                padding: 20px;
+                width: 20%;
+                height: 300px;">
+
+        <div style="width: 100%; height: 100%; overflow: auto; border: 2px solid #000000;">
+
+            <img src="music.jpg"
+                 alt="图片显示失败" 
+                 width="150" 
+                 height="150"
+                 title="音乐播放区"
+                 style="display: block; margin: 0 auto; border-radius: 50%;">
+            <p>音乐播放区</p>
+            <ul>
+                <li>朋克音乐</li>
+                <li>流行音乐</li>
+                <li>纯音乐</li>
+                <li>古典音乐</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div style="position: fixed; top: 450px; left: 25%;
+                background-color: rgba(243, 229, 200, 0.25);
+                padding: 20px;
+                width: 75%;
+                height: 300px;">
+
+        <div style="width: 20%; height: 100%; 
+                    overflow: auto; 
+                    border: 2px solid #000000;">
+
+            <p>写作记录区</p>
+            <ul>
+                <li>童年写作</li>
+                <li>青春写作</li>
+                <li>生活记录</li>
+                <li>抛石子</li>
+                <li>诗歌</li>
+            </ul>
+
+        </div>
+       
+        <div style="position: absolute; left: 350px; top: 20px; width: 150px; height: 100px; background: #e1f5fe; border: 1px solid #4fc3f7; padding: 10px;">博客</div>
+    <div style="position: absolute; left: 600px; top: 20px; width: 150px; height: 100px; background: #f3e5f5; border: 1px solid #ba68c8; padding: 10px;">照片记录</div>
+    <div style="position: absolute; left: 850px; top: 20px; width: 150px; height: 100px; background: #e8f5e9; border: 1px solid #81c784; padding: 10px;">观影记录</div>
+    <div style="position: absolute; left: 350px; top: 160px; width: 150px; height: 100px; background: #fff3e0; border: 1px solid #ffb74d; padding: 10px;">读书笔记</div>
+    <div style="position: absolute; left: 600px; top: 160px; width: 150px; height: 100px; background: #fce4ec; border: 1px solid #f06292; padding: 10px;">人物记录</div>
+    <div style="position: absolute; left: 850px; top: 160px; width: 150px; height: 100px; background: #e0f7fa; border: 1px solid #4dd0e1; padding: 10px;">思维碎片</div>
+</div>
+
+
+    </div>
+
+    <div style="position: fixed; bottom: 0; left: 0px; 
+                background-color: rgba(200, 243, 234, 0.25);
+                padding: 20px;
+                width: 100%; 
+                text-align: center;
+                border-top: 2px solid #000000;">
+        <p>欢迎来到只阳赛博空间！</p>
+    </div>
+</body>
+</html>
